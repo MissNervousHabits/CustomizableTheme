@@ -1,3 +1,13 @@
+$main-color: #010101;
+$secondary-color: lighten($main-color, 1.5%);
+$secondary-alt-color: lighten($main-color, 0.8%);
+$floating-color: lighten($main-color, 2.8%);
+
 :root {
-    background-primary: #1d0f1c00;
+    --background-primary: #{$main-color};
+    --background-secondary: #{$secondary-color};
+    --background-secondary-alt: #{$secondary-alt-color};
+    --background-tertiary: #{$main-color};
+    --background-floating: #{$floating-color};
+    --channeltextarea-background: #{$secondary-color};
 }
