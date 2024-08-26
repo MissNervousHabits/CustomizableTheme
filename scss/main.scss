@@ -11,3 +11,7 @@ $floating-color: lighten($main-color, 2.8%);
     --background-floating: #{$floating-color};
     --channeltextarea-background: #{$secondary-color};
 }
+/*Friends header*/
+.theme-dark .themed_fc4f04 {
+    background: #{$main-color};
+}
